@@ -1,0 +1,15 @@
+equals(): deve devolver true quando for o mesmo objeto e false caso sejam diferentes;
+toString(): deve apresentar o nome da classe e o código do objeto diferentes para cada objeto;
+hashCode(): deve apresentar o código de cada objeto com valores diferentes.
+
+Após teste, sobrescreva o toString() na classe Endereco e devolva todas as properties do endereço. Nesta implementação, aproveite para testar o raw string (String pura).
+
+Depois de sobrescrever o toString(), modifique os objetos do tipo Endereco para que tenham valores diferentes em suas properties, como por exemplo, um logradouro diferente, então confira se eles são apresentados ao imprimir o objeto.
+
+
+Sobrescreva o hashCode() e equals() da classe Endereco com base nas properties da classe.
+
+Para isso, utilize o Generate do IntelliJ por meio do atalho Alt + Insert > equals() and hashCode(), selecione todas as properties e clique em Finish. O IntellIj deve gerar o código com base nas properties selecionadas.
+
+Em seguida, rode o programa e confira se o equals() indica se é o mesmo objeto, caso as properties tenham os membros valores para ambos os objetos, então, verifique também se o hashCode() gera o código diferente para cada objeto e o mesmo caso tiverem as properties com o mesmo valor.
+
